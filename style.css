@@ -6,7 +6,8 @@ body {
 }
 
 .header,
-.footer {
+.footer,
+.hero {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -35,3 +36,20 @@ a {
     text-decoration: none;
 }
 
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.heroleft {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 8px;
+}
+
+.herotext {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
