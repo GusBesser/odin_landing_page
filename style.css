@@ -1,0 +1,36 @@
+body {
+    font-family: Roboto, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.links {
+    display: flex;
+}
+
+a,
+.text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+a {
+    padding: 8px;
+    text-decoration: none;
+}
