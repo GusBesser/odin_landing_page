@@ -40,7 +40,10 @@ a {
     display: flex;
     flex-direction: column;
 }
-
+.heroleft,
+.heroright {
+    margin: 50px;
+}
 .heroleft {
     display: flex;
     flex-direction: column;
@@ -70,13 +73,14 @@ button {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 36px;
+    margin: 50px;
 }
 
 .infoheader {
     font-size: 36px;
     color: #1f2937;
     font-weight: 900;
+    margin-bottom: 50px;
 }
 
 .infocontainer {
@@ -89,4 +93,35 @@ button {
 .information img {
     width: 250px;
     height: 250px;
+}
+
+.quotecontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.quote {
+    align-self: center;
+    max-width: 1000px;
+    margin: 50px;
+}
+
+.quotetext {
+    display: flex;
+    font-size: 38px;
+    font-weight: lighter;
+    font-style: italic;
+    overflow-wrap: anywhere;
+    color: #1f2937;
+}
+
+.quoteman {
+    align-self: center;
+    text-align: right;
+    font-size: 28px;
+    color: #1f2937;
+    font-weight: 900;
 }
